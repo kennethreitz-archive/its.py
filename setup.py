@@ -10,15 +10,15 @@ This simple module gives you a set of Python runtime environment flags.
 from setuptools import setup
 
 setup(
-    name='is',
+    name='its',
     version='0.1.0',
-    url='https://github.com/kennethreitz/is',
+    url='https://github.com/kennethreitz/its',
     license='BSD',
     author='Kenneth Reitz',
     author_email='me@kennethreitz.com',
     description=' Python runtime environment flags.',
     long_description=__doc__,
-    py_modules=['is'],
+    py_modules=['its'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',

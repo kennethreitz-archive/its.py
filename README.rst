@@ -1,5 +1,5 @@
-is.py
-=====
+its.py
+======
 
 Python runtime environment flags.
 
@@ -11,21 +11,21 @@ Usage is super simple::
     Python 2.7.3 (default, Apr 24 2012, 20:23:13)
     [GCC 4.2.1 Compatible Apple Clang 3.1 (tags/Apple/clang-318.0.58)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> import is
+    >>> import its
 
-    >>> is.py2
+    >>> its.py2
     True
 
-    >>> is.py26
+    >>> its.py26
     False
 
-    >>> is.py27
+    >>> its.py27
     True
 
-    >>> is.pypy
+    >>> its.pypy
     False
 
-    >>> is.osx
+    >>> its.osx
     True
 
 
@@ -34,5 +34,5 @@ Installation
 
 Installation is simple with pip::
 
-    $ pip install is
+    $ pip install its
 
