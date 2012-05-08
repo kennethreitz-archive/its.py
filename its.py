@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-is.py
+its.py
 ~~~~~
 
 System environment flags.
@@ -9,6 +9,7 @@ System environment flags.
 
 
 import sys
+import struct
 
 # -------
 # Pythons
@@ -75,3 +76,23 @@ osx = ('darwin' in str(sys.platform).lower())
 hpux = ('hpux' in str(sys.platform).lower())   # Complete guess.
 solaris = ('solaris' in str(sys.platform).lower())   # Complete guess.
 
+
+# ---------
+# Bitness
+# ---------
+
+
+# 32-bit vs. 64-bit
+_void_ptr_size = struct.calcsize('P')
+bit32 = _void_ptr_size * 8 == 32
+bit64 = _void_ptr_size * 8 == 64
+
+
+# ---------
+# Endianness
+# ---------
+
+
+# little vs. big endian
+little_endian = sys.byteorder == 'little'
+big_endian = sys.byteorder == 'big'

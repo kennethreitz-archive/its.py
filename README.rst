@@ -27,6 +27,13 @@ Usage is super simple::
 
     >>> its.osx
     True
+    
+    >>> its.bit64
+    True
+    
+    >>> its.little_endian
+    True
+
 
 
 Installation
