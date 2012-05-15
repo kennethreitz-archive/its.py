@@ -74,7 +74,7 @@ windows = 'win32' in str(sys.platform).lower()
 linux = ('linux' in str(sys.platform).lower())
 osx = ('darwin' in str(sys.platform).lower())
 hpux = ('hpux' in str(sys.platform).lower())   # Complete guess.
-solaris = ('solaris' in str(sys.platform).lower())   # Complete guess.
+solaris = ('sunos' in str(sys.platform).lower())   # Complete guess.
 
 
 # ---------
