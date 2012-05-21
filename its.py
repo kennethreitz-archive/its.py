@@ -61,7 +61,7 @@ py24 = (py2 and _ver[1] == 4)   # I'm assuming this is not by choice.
 _ver = sys.version.lower()
 
 pypy = ('pypy' in _ver)
-jython = ('jython' in _ver)
+jython = ('java' in _ver)
 ironpython = ('iron' in _ver)
 
 # Assume CPython, if nothing else.
